@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student_qr_dash">
+
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="269dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="532dp"
+        android:src="@drawable/fry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/fry"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="-60dp" />
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="-72dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="204dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="448dp"
+        android:background="#673AB7"
+        android:text="ORDER AGAIN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="209dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="536dp"
+        android:background="#673AB7"
+        android:text="LOG OUT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="148dp"
+        android:text="SCAN THE QR TO THE COUNTER"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@android:drawable/presence_busy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

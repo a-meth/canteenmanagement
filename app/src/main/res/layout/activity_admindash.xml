@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.canteenmanagement.activity_admindash">
+
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="316dp"
+        android:src="@drawable/fry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/fry"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="-45dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="-30dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="271dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="60dp"
+        android:text="ADMIN PANEL"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:background="#673AB7"
+        android:enabled="true"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <RadioGroup
+        android:id="@+id/apRadioGroup"
+        android:layout_width="195dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#1B0505"
+            android:text="CANTEEN"
+            android:textColor="#F40707" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#220202"
+        android:text="View Students"
+        android:textColor="#F4EFEF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2C0303"
+        android:text="VIEW CANTEEN"
+        android:textColor="#FAF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#F44336"
+        android:text="LOG OUT"
+        app:layout_constraintStart_toStartOf="@+id/submit"
+        app:layout_constraintTop_toBottomOf="@+id/submit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
